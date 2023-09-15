@@ -82,6 +82,9 @@ export default {
 
     throw new Error(`Неправильно указан параметр "VUE_APP_DOCHUB_CACHE=${currentMethod}" в env!`);
   },
+  get defaultTitle(): TEnvValue {
+    return this.dochub.VUE_APP_DEFAULT_TITLE;
+  },
   get rootDocument(): TEnvValue {
     return this.dochub.VUE_APP_DOCHUB_ROOT_DOCUMENT;
   },

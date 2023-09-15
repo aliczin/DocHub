@@ -10,6 +10,9 @@
 
   export default {
     name: 'MainPage',
+    metaInfo: {
+      title: (env.defaultTitle || 'ArcHub')
+    },
     data() {
       return {};
     },

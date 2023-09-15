@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
+import Meta from 'vue-meta';
 import cookie from 'vue-cookie';
 
 import gateway from '@idea/gateway';
@@ -10,6 +11,7 @@ import appRoutes from './routes';
 import ComponentsMindmap from '../components/Mindmap/ComponentsMindmap';
 
 Vue.use(Router);
+Vue.use(Meta);
 
 const rConfig = {
 	scrollBehavior() {
