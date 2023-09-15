@@ -9,7 +9,7 @@ build:
 
 
 develop:
-
+	npm run serve
 
 test:
 
